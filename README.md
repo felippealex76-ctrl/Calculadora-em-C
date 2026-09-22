@@ -1,25 +1,45 @@
-# Calculadora em C
+# 🧮 Calculadora em C
 
-Projeto desenvolvido em linguagem C para praticar fundamentos de programação.
+Mini calculadora desenvolvida em linguagem **C** para prática de lógica de programação e dos fundamentos da linguagem.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
 - Soma
 - Subtração
 - Multiplicação
 - Divisão
 
-## Conceitos utilizados
+## 🧠 Conceitos praticados
 
-- Variáveis
+- Variáveis e tipos de dados
 - Funções
-- Condicionais
+- Estruturas condicionais
 - Entrada e saída de dados
 
-## Como executar
+## 🚀 Como executar
 
-Compile o arquivo main.c e execute o programa.
+O código-fonte está em `src/main.c`.
 
-## Autor
+**Compilando com GCC:**
+```bash
+gcc src/main.c -o calculadora
+./calculadora
+```
 
-Alex
+**Compilando com CMake:**
+```bash
+cmake -S . -B build
+cmake --build build
+```
+
+## 🛠️ Tecnologias
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
+
+## 👤 Autor
+
+**Alex Vinicius Felippe** — Estudante de ADS com foco em desenvolvimento Back-End.
+
+- GitHub: [@felippealex76-ctrl](https://github.com/felippealex76-ctrl)
+- LinkedIn: [Alex Felippe](https://www.linkedin.com/in/alex-felippe-27b1a1262)
